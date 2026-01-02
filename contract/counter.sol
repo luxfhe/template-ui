@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.25;
 
-import "@luxfhe/cofhe-contracts/FHE.sol";
+import "@luxfhe/luxfhe-contracts/FHE.sol";
 
 contract Counter {
     mapping(address => euint32) public counts;
